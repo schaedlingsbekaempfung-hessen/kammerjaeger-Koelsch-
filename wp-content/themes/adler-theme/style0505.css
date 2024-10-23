@@ -1,0 +1,25 @@
+/*
+Theme Name: Adler Schädlingsbekämpfung Wordpress Theme
+Template: pestea
+Author: Die Leoparden GmbH
+Author URI: https://www.die-leoparden.de/
+Description: Adler Schädlingsbekämpfung Wordpress Theme
+Version: 1.0.0.1677763495
+Updated: 2023-02-06 10:39:31
+
+*/
+@import "css/fonts/stylesheet.css";
+@import "css/__root.css";
+@import "css/header.css";
+@import "css/content/form.css";
+@import "css/content/3Dpacks.css";
+@import "css/content/aboutUs.css";
+@import "css/content/pest.css";
+@import "css/content/banner.css";
+@import "css/content/services.css";
+@import "css/content/page.css";
+@import "css/content/sidebar.css";
+@import "css/content/introduction.css";
+@import "css/content/schaedlinge.css";
+@import "css/content/special_service.css";
+@import "css/footer.css";

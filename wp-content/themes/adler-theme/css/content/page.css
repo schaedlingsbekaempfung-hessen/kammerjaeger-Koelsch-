@@ -1,0 +1,59 @@
+.hakkimizda-bolumu-anasayfa *{
+    font-family: var(--default-font-family);
+
+}
+.pagePaddingTop{
+    padding-top: var(--page-padding-top);
+}
+
+.pagePaddingTop>section{
+    padding: unset !important;
+    padding-bottom: 50px !important;
+}
+
+.pagePadding {
+    padding-top: 160px !important;
+    padding-bottom: 20px !important;
+}
+
+.pageFontSize> * h1{
+    font-size:var(--font-size-xl) !important;
+}
+.pageFontSize> * h2{
+    font-size:var(--font-size-lg) !important;
+}
+.pageFontSize> * h3{
+    font-size:var(--font-size-lg) !important;
+}
+.pageFontSize> * h4{
+    font-size:var(--font-size-lg) !important;
+}
+.pageFontSize> * p{
+    font-size: var(--font-size-xxs);
+}
+
+
+@media only screen and (max-width: 56.25em) {
+    .pageFontSize> * h1{
+        font-size:var(--font-size-mobile-lg) !important;
+    }
+    .pageFontSize> * h2{
+        font-size:var(--font-size-mobile-md) !important;
+    }
+    .pageFontSize> * h3{
+        font-size:var(--font-size-mobile-sm) !important;
+    }
+    .pageFontSize> * h4{
+        font-size:var(--font-size-mobile-xs) !important;
+    }
+    .pageFontSize> * p{
+        font-size: var(--font-size-mobile-xxs) !important;
+    }
+}
+.has-global-padding.is-layout-constrained.entry-content.wp-block-post-content *{
+    padding-bottom: var(--page-entries-padding-botom);
+}
+.wp-block-post-title{
+    padding-bottom: var(--page-entries-padding-botom);
+}
+

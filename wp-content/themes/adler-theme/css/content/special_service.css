@@ -1,0 +1,9 @@
+#special_service p{
+    font-family: var(--default-font-family);
+    font-size: var(--font-size-xxs);
+}
+#special_service h3{
+    font-family: var(--default-font-family) !important;
+    font-size: var(--font-size-xs) !important;
+    font-weight: var(--font-weight-md);
+}

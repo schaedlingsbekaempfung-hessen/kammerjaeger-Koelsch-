@@ -1,0 +1,129 @@
+.paketler3__gorsel--1 {
+    background-image: unset;
+    background-position: center;
+}
+
+.paketler3__on {
+    box-shadow: unset !important;
+}
+
+.baslik-sol {
+    font-family: var(--default-font-family) !important;
+    font-size: var(--font-size-xs) !important;
+    font-weight: var(--font-weight-md);
+    color: unset;
+}
+
+.services-kutu2--yazi {
+    color: unset;
+}
+
+/**
+Arbeitsweisen Back Text
+ */
+.paketler3__pr-yazi {
+    font-family: var(--default-font-family) !important;
+    font-weight: var(--font-weight-lg);
+    text-transform: none;
+}
+
+.paketler3__on--arkayazi-1 {
+    background-image: none !important;
+    background-color: var(--primary-color);
+}
+
+.h-yazi-margin-kucuk {
+    margin-bottom: var(--space-md) !important;
+}
+
+/** Mobile */
+
+.paketler3__gorsel {
+    -webkit-clip-path: none;
+    clip-path: none;
+}
+.pack-description{
+    font-family: var(--default-font-family) !important;
+    font-weight: var(--font-weight-lg);
+  }
+
+.pack-description p{
+    font-family: var(--default-font-family) !important;
+}
+.pack-description li{
+    display: list-item;
+    font-size: var(--font-size-xxs) !important;
+}
+.pack-description ul{
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+#arbeitsweise li{
+    cursor: auto;
+}
+
+@media only screen and (max-width: 56.25em) {
+    .tablo {
+        padding: 0 var(--space-md);
+    }
+
+    .tablo .col-lg-4 {
+        margin-bottom: var(--margin-md);
+    }
+
+    .tablo .col-lg-4:last-child {
+        margin-bottom: 0;
+    }
+
+    .h2-baslik-hizmetler-2 {
+        margin-top: unset;
+        font-size: var(--font-size-mobile-md) !important;
+        font-weight: var(--font-weight-lg) !important;
+        padding: 0 24px;
+    }
+
+    .baslik-sol.h-yazi-margin-kucuk {
+        font-size: var(--font-size-mobile-sm) !important;
+    }
+}
+
+@media only screen and (max-width: 56.25em), only screen and (hover: none) {
+    .paketler3 {
+        box-shadow: none;
+    }
+
+    .paketler3__gorsel {
+        height: var(--half-height);
+    }
+
+    .paketler3__on--arkayazi {
+        clip-path: unset;
+        background-image: none !important;
+        background-color: var(--white);
+    }
+
+    .paketler3__pr {
+        padding: var(--space-md) 0;
+    }
+
+    .paketler3__pr:last-child {
+        padding: var(--space-md) 0 0 0;
+    }
+
+    .paketler3__pr-yazi {
+        font-weight: var(--font-weight-md);
+        font-size: var(--font-size-mobile-xxs);
+    }
+    .pack-description{
+        font-weight: var(--font-weight-md);
+        font-size: var(--font-size-mobile-xxs);
+    }
+
+    .paketler3__pr-kutu {
+        color: var(--primary-font-color) !important;
+    }
+    .pack-description li{
+        font-size: var(--font-size-mobile-xxs) !important;
+    }
+}

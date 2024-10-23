@@ -1,0 +1,35 @@
+/*@media only screen and (max-width: 991px), only screen and (max-device-width: 1180px) {*/
+/*    .side-widget .hide-mobile {*/
+/*         display: block;*/
+/*    }*/
+/*    .side-widget .show-mobile {*/
+/*         display: none;*/
+/*    }*/
+/*}*/
+
+.side-widget>.inner>.address>.container *>a{
+    border: unset !important;
+    border-radius: unset !important;
+    width: unset !important;
+    color: black !important;
+    font-size: unset;
+    display: block;
+    line-height: 30px;
+    height: 30px;
+}
+.side-widget>.inner *{
+    font-family: var(--default-font-family);
+    font-size: var(--font-size-xxs)!important;
+}
+
+.side-widget>.inner * >a{
+    color: black!important;
+}
+.address * >.iconsv > i{
+    font-size: 48px!important;
+}
+@media only screen and (max-width: 56.25em) {
+    .side-widget>.inner *{
+        font-size: var(--font-size-mobile-xxs) !important;
+    }
+}

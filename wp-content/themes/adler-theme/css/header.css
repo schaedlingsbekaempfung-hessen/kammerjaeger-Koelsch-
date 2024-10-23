@@ -1,0 +1,92 @@
+.navbar .logo a img {
+    height: var(--logo-header-height);
+}
+
+.bg-light {
+    height: auto;
+}
+
+.hamburger-menu span {
+    height: 3px;
+}
+
+.colorBar {
+    min-height: var(--default-size);
+    background-color: var(--primary-color);
+    z-index: 1093;
+    width: var(--100-percent);
+    top: 0;
+}
+.menu-item a{
+    font-family: var(--default-font-family) !important;
+}
+.navbar {
+    top: 0;
+}
+.navbar-button{
+    font-family: var(--default-font-family) !important;
+}
+.navbar-button span {
+    letter-spacing: var(--space-lettering);
+    font-weight: var(--font-weight-xl);
+}
+.navbar-button span{
+    text-decoration: none;
+}
+.navTelefoneNumber{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.call-to-action img {
+    position: fixed;
+    bottom: 100px;
+    z-index: 100000;
+    width: 80px;
+    right: 6px;
+    animation: shake 2s cubic-bezier(.36,.07,.19,.97) both infinite;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+.navbar .navbar-button  span.navTelefoneNumber a {
+    all: unset !important;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar .navbar-button {
+        margin-left: unset;
+    }
+
+    .navbar-button span {
+        color: var(--light-font-color);
+        font-size: var(--font-size-mobile-sm);
+    }
+
+    .navbar-button span:first-child {
+        font-size: var(--font-size-mobile-xs);
+    }
+    .navbar .container {
+        padding: 0 var(--padding-grid) !important;
+    }
+}
+
+@keyframes shake {
+    10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+
+    20%, 80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%, 50%, 70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+
+    40%, 60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}

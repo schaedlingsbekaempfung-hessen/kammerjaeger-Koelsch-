@@ -1,0 +1,95 @@
+/*AboutUs Headline*/
+.h2-baslik-anasayfa-ozel {
+    color: var(--primary-font-color) !important;
+    font-family: var(--default-font-family) !important;
+    font-weight: var(--font-weight-xl) !important;
+    font-size: var(--font-size-md) !important;
+}
+
+/*AboutUs content text*/
+.aboutUsRightText p {
+    font-weight: var(--font-weight-lg);
+    text-align: center !important;
+    font-family: var(--default-font-family);
+    font-size: var(--font-size-xxs);
+}
+
+.imagerotate {
+    animation: none;
+}
+
+@media (min-width: 992px) {
+    .aboutUsRightText p {
+        text-align: unset !important;
+        margin-bottom: var(--margin-sm);
+    }
+
+    .countb {
+        top: 150px;
+        right: 18px;
+    }
+
+    .ball {
+        display: block !important;
+        margin-top: unset !important;
+        height: var(--ball-max-size) !important;
+        width: var(--ball-max-size) !important;
+    }
+
+    .countt {
+        top: -60px;
+        left: -28px;
+    }
+
+    .service-icon-aboutUs {
+        max-width: var(--icon-max-width-about-us);
+        filter: var(--svg-white);
+        top: 21px;
+        left: 45px;
+        font-family: var(--default-font-family);
+    }
+
+    .service-text-aboutUs {
+        width: 100px !important;
+        top: 125px;
+        left: 35px;
+    }
+}
+
+
+.hakkimizda-bolumu-anasayfa {
+    background-color: white;
+    margin-top: unset;
+}
+
+.custom-button {
+    position: absolute;
+    bottom: calc(-1 * (10rem + 35px));
+}
+
+@media (max-width: 991.98px) {
+    .tablo > .tablo--1-ve-3 {
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .custom-button {
+        transform: translateX(-50%);
+        left: 50%;
+    }
+}
+
+@media only screen and (max-width: 56.25em) {
+    .custom-button {
+        left: 0;
+    }
+
+    .h2-baslik-anasayfa-ozel {
+        font-size: var(--font-size-mobile-md) !important;
+    }
+
+    .aboutUsRightText p {
+        font-size: var(--font-size-mobile-xxs);
+    }
+}

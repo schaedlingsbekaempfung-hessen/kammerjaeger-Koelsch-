@@ -1,0 +1,46 @@
+.footer .footer-info p, .footer .copyright, .footer .fic {
+    font-family: var(--default-font-family) !important;
+}
+
+.footer .fic {
+    margin-top: unset;
+}
+
+.footer .fic tcxspan {
+    text-decoration: none
+}
+
+.iconpfooter2 {
+    width: var(--font-size-xs);
+    height: var(--font-size-xs);
+    margin-top: unset;
+}
+
+.iconpfooter3 {
+    font-size: var(--font-size-xxs);
+    margin-top: 0;
+}
+
+.footer-mobile p {
+    font-family: var(--default-font-family) !important;
+    text-align: center;
+    font-size: var(--font-size-mobile-sm);
+    font-weight: var(--font-weight-sm);
+}
+
+.footer-mobile .row {
+    padding-bottom: 30px;
+}
+
+.footer-mobile .iconpfooter2-mobile {
+    max-width: 30px;
+}
+
+@media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+    .footer .copyright {
+        font-size: var(--font-size-mobile-sm);
+        margin-top: unset;
+        text-align: center;
+        line-height: 1.7;
+    }
+}

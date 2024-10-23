@@ -1,0 +1,96 @@
+#schaedlingImage h1 {
+    font-size: var(--font-size-xxl);
+    letter-spacing: 2px;
+    line-height: 1.4;
+    text-transform: uppercase;
+    font-weight: var(--font-weight-xl);
+    color: white;
+}
+
+#schaedlingImage .col-12 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#schaedlingImage {
+    height: 500px;
+}
+
+#schaedlingImage .container {
+    height: 100%;
+}
+#schaedlingSection{
+    padding-top: 8rem !important;
+}
+
+#schaedlingSection .schaedlingText * {
+    font-family: var(--default-font-family);
+    font-size: var(--font-size-xxs);
+}
+
+#schaedlingSection .schaedlingText p {
+    padding-bottom: 20px;
+}
+
+#schaedlingSection h2 {
+    font-size: var(--font-size-lg);
+    font-family: var(--default-font-family) !important;
+}
+
+#schaedlingForm h2 {
+    font-size: var(--font-size-lg);
+}
+
+#schaedlingForm {
+    font-family: var(--default-font-family);
+}
+
+#schaedlingSection p {
+    font-family: var(--default-font-family) !important;
+}
+
+#schaedlingSection li {
+    display: list-item;
+    font-size: var(--font-size-xxs);
+    cursor: auto;
+}
+
+#schaedlingSection ul {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+#schaedlingImage {
+    background-position: center;
+}
+
+.schaedlingText {
+    max-width: 1000px;
+}
+
+.schaedlingCard {
+    height: 250px;
+}
+#schaedlingService li{
+    cursor: auto;
+}
+
+@media only screen and (max-width: 56.25em), only screen and (hover: none) {
+    #schaedlingImage h1 {
+        font-size: var(--font-size-mobile-lg);
+    }
+
+    #schaedlingImage .col-12 {
+        top: 25%;
+    }
+    #schaedlingSection .schaedlingText * {
+        font-size: var(--font-size-mobile-xxs);
+    }
+    #schaedlingSection li {
+        font-size: var(--font-size-mobile-xxs);
+    }
+    #schaedlingForm h2{
+        font-size: var(--font-size-mobile-md);
+    }
+}

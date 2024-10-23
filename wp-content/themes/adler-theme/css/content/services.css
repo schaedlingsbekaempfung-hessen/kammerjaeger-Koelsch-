@@ -1,0 +1,45 @@
+.services .service-label {
+    font-family: var(--default-font-family) !important;
+    font-size: var(--font-size-xxs);
+    font-weight: var(--font-weight-lg);
+}
+
+.services .service-icon {
+    max-width: var(--icon-max-width);
+    max-height: var(--icon-max-height);
+}
+
+section.services .container {
+    padding-left: var(--padding-grid);
+    padding-right: var(--padding-grid);
+}
+
+.services p{
+    font-family: var(--default-font-family);
+    font-size: var(--font-size-xxs);
+}
+.services li{
+    font-family: var(--default-font-family);
+    font-size: var(--font-size-xxs);
+}
+
+#service li{
+    cursor: auto;
+}
+
+@media only screen and (max-width: 56.25em) {
+    .services .service-icon.responsive-icon {
+        max-width: var(--icon-max-width-sm);
+    }
+    .services .service-label {
+        font-family: var(--default-font-family) !important;
+        font-size: var(--font-size-mobile-xxs);
+        font-weight: var(--font-weight-lg);
+    }
+    .services p{
+        font-size: var(--font-size-mobile-xxs);
+    }
+    .services li{
+        font-size: var(--font-size-mobile-xxs);
+    }
+}

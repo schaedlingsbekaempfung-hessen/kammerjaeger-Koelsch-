@@ -1,0 +1,37 @@
+
+section.pests {
+    background-color: var(--light-font-color);
+}
+
+/*Pest Card Headline*/
+.h2-baslik-hizmetler-2-pest {
+    background-image: unset;
+    color: var(--light-font-color) !important;
+    font-family: var(--default-font-family) !important;
+    font-size: var(--font-size-mobile-sm) !important;
+    font-weight: var(--font-weight-lg) !important;
+    letter-spacing: 1px;
+}
+.h3-pests {
+    background-image: unset;
+    color: var(--light-font-color) !important;
+    font-family: var(--default-font-family) !important;
+    font-size: var(--font-size-pests-h3) !important;
+    font-weight: var(--font-weight-lg) !important;
+    letter-spacing: 1px;
+}
+
+.dep {
+    height: var(--100-percent);
+    min-height: 180px;
+    background: var(--primary-color);
+    border-radius: unset;
+    box-shadow: none;
+    padding-bottom: 0 !important;
+}
+
+img.pestim {
+    width: var(--100-percent);
+    max-width: var(--pest-max-width);
+    margin-bottom: var(--margin-md);
+}

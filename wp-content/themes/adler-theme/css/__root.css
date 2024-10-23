@@ -1,0 +1,108 @@
+:root {
+    --default-font-family: 'Lexend', Arial, sans-serif;
+    --primary-color: #0000ff;
+    --primary-font-color: #000000;
+    --light-font-color: #f8f8f8;
+    --form-underline-color: #000;
+    --form-border-weight-mobile: 0.4rem;
+    --form-border-weight: 0.1rem;
+    --form-button-border-radius: 5px;
+    --full-height: 100vh;
+    --half-height: 50vh;
+    --100-percent: 100%;
+    --50-percent: 50%;
+    --font-size-xxs: 15pt;
+    --font-size-xs: 20pt;
+    --font-size-sm: 22pt;
+    --font-size-md: 24pt;
+    --font-size-lg: 26pt;
+    --font-size-xl: 28pt;
+    --font-size-xxl: 40pt;
+    --font-size-mobile-xxs: 11pt;
+    --font-size-mobile-xs: 12pt;
+    --font-size-mobile-sm: 14pt;
+    --font-size-mobile-md: 20pt;
+    --font-size-mobile-lg: 26pt;
+    --font-size-mobile-xl: 30pt;
+    --font-size-pests-h3: 13pt;
+    --font-weight-sm: 300;
+    --font-weight-md: 400;
+    --font-weight-lg: 500;
+    --font-weight-xl: 600;
+    --font-weight-xxl: 700;
+    --space-lettering: 2px;
+    --section-padding-y: 10rem 0;
+	--section-padding-top: 10rem;
+    --margin-sm: 2rem;
+    --margin-md: 3.5rem;
+    --margin-xl: 15rem;
+    --padding-grid: 39px;
+    --padding-grid-sm: 24px;
+    --default-size: 30px;
+    --space-md: 5rem;
+    --pest-max-width: 65px;
+    --icon-max-width: 122px;
+    --icon-max-width-about-us: 80px;
+    --icon-max-width-sm: 55px;
+	--icon-max-height: 101px;
+    --ball-max-size: 170px;
+    --logo-header-height: 60px;
+    --form-width: 75%;
+    --form-width-mobile: 90%;
+    --svg-white: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+    --page-padding-top: 200px;
+    --page-entries-padding-botom: 20px;
+}
+
+.bannerImage h1 {
+	font-family: 'Lexend';
+}
+
+/** Header h2 */
+section {
+    padding: var(--section-padding-y) !important;
+}
+
+section .container {
+    padding-left: var(--padding-grid);
+    padding-right: var(--padding-grid);
+}
+.section-padding-top{
+    padding-top: var(--section-padding-top);
+}
+
+.h2-baslik-hizmetler-2 {
+    font-family: var(--default-font-family) !important;
+    font-size: var(--font-size-lg) !important;
+    font-weight: var(--font-weight-lg) !important;
+    letter-spacing: 1px;
+    background-color: var(--primary-font-color);
+    background-image: none !important;
+}
+
+.h2-baslik-hizmetler-3__paragraf {
+    font-family: var(--default-font-family);
+    font-size: var(--font-size-xxs);
+    font-weight: var(--font-weight-md);
+}
+
+/** Spacer between Section Header and Content */
+.bosluk3 {
+    margin-top: var(--margin-md);
+}
+
+li {
+    float: none;
+}
+
+@media only screen and (max-width: 56.25em) {
+    .h2-baslik-hizmetler-3__paragraf {
+        font-size: var(--font-size-mobile-xxs) !important;
+        padding: var(--space-md) 24px 0 24px;
+     }
+
+    .h-yazi-margin-orta-3 {
+        margin-bottom: 0 !important;
+        padding-bottom: 0;
+     }
+}
